@@ -12,7 +12,12 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["es2017", "dom"],
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@workspace/material": ["libs/material/src/index.ts"],
+      "@workspace/core-data": ["libs/core-data/src/index.ts"],
+      "@workspace/ui-login": ["libs/ui-login/src/index.ts"],
+      "@workspace/ui-toolbar": ["libs/ui-toolbar/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
